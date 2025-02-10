@@ -15,6 +15,7 @@ const texts = {
 };
 // const locale = "da";
 let locale = "da"; //because language will switch
+console.log(texts);
 //step1
 const languageSwitcher = document.getElementById("languageSwitcher");
 const elementsChange = document.getElementById(".header, .footer");
